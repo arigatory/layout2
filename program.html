@@ -7,6 +7,7 @@
   <title>Program</title>
 </head>
 <body>
+  <p><a href="index.html">Назад</a></p>
   <h1>Информация о курсе</h1>
   <h2>Как работать на курсе?</h2>
   <ol>
@@ -43,30 +44,42 @@
     <li>Работа с хостингом</li>
     <li>курсовая. Мини-проект в портфолио</li>
   </ul>
-  <table class="main__table">
-    <tr>
-      <th colspan="3">Заголовок</th>
-    </tr>
-    <tr class="right_one">
-      <td>Спецсимволы и тег code</td>
-      <td><code>&lt;div&gt;Див&lt;/div&gt;</code></td>
-    </tr>
-    <tr>
-      <td>Спецсимволы без тега code</td>
-      <td>&lt;div&gt;Див&lt;/div&gt;</td>
-    </tr>
-    <tr>
-      <td>Тег code без спецсимволов</td>
-      <td><code><div>Див</div></code></td>
-    </tr>
-  </table>
-  <table class="">
-    <tr>
+  <figure>
+    <figcaption style="text-align:center">Таблица тегов</figcaption>
+    <table class="main__table">
+      <tr>
+        <th colspan="2">Блочные</th>
+        <th colspan="2">Строчные</th>
+      </tr>
 
-    </tr>
-    <tr>
+      <tr>
+        <td><code>&lt;div&gt;Див&lt;/div&gt;</code></td>
+        <td>Тег div - строительный кирпичик без смысловой нагрузки</td>
+        <td><code>&lt;span&gt;Спан&lt;/span&gt;</code></td>
+        <td>Текстовый тек без смысловой нагрузки</td>
+      </tr>
 
-    </tr>
-  </table>
+      <tr>
+        <td><code>&lt;p&gt;Параграф&lt;/p&gt;</code></td>
+        <td>Тег p - параграф текста</td>
+        <td><code>&lt;a href=&quot;#&quot;&gt; Ссылка &lt;/a&gt;</code></td>
+        <td>Тег ссылки</td>
+      </tr>
+
+      <tr>
+        <td><code>&lt;h1&gt;Заголовок&lt;/h1&gt;</code></td>
+        <td>Тег заголовка. Различают 6 типов заголовков - h1-h6</td>
+        <td><code>&lt;img src=&quot;#&quot;&gt; alt=&quot;Картинка&quot;&gt;</code></td>
+        <td>Тег картинки</td>
+      </tr>
+
+      <tr>
+        <td><code>&lt;i&gt;Курсивный текст&lt;/i&gt;</code></td>
+        <td>Тег ненумерованного списка. Есть так же нумерованный - ol</td>
+        <td><code>&lt;div&gt;Див&lt;/div&gt;</code></td>
+        <td>Тег для выделения текста курсивом</td>
+      </tr>
+    </table>
+  </figure>
 </body>
 </html>

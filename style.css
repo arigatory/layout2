@@ -8,12 +8,3 @@
   padding: 10px 20px;
 }
 
-
-.right_one::after {
-  content: "<= правильный вариант";
-  position: absolute;
-  padding-left: 20px;
-  margin-top: 10px;
-
-  color: green
-}
